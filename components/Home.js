@@ -35,7 +35,7 @@ function Home() {
   );
 // useEffect
     useEffect(()=> {
-      fetch('http://localhost:3000/movies')
+      fetch('https://mymovizback-radn.vercel.app')
       .then(resp => resp.json())
       .then(dataMovie => {
          if (dataMovie.movies) {

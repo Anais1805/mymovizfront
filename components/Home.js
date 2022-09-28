@@ -35,7 +35,7 @@ function Home() {
   );
 // useEffect
     useEffect(()=> {
-      fetch('https://mymovizback-radn.vercel.app')
+      fetch('https://mymovizback-radn.vercel.app/movies')
       .then(resp => resp.json())
       .then(dataMovie => {
          if (dataMovie.movies) {

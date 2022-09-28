@@ -51,7 +51,7 @@ console.log(props)
       <div className={styles.textContainer}>
         <div>
           <span className={styles.name}>{props.title}</span>
-          <textArea maxLength={250} className={styles.description}>{props.overview} </textArea>
+          <textArea readOnly maxLength={250} className={styles.description}>{props.overview} </textArea>
         </div>
         <div className={styles.iconContainer}>
           <span className={styles.vote}>{stars} ({props.voteCount})</span>
